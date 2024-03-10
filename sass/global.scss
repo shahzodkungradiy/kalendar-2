@@ -21,7 +21,7 @@ td {
     border: 2px solid black;
     border-collapse: collapse;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     margin-bottom: 15px;
     font-size: 20px;
     font-family: "Roboto-Bold";
@@ -32,9 +32,18 @@ td {
 
 .container {
     margin: 0 auto;
-    padding: 0 15px;
-    height: min-content;
-    width: min-content;
+    padding: 0 10px;
+    width: 890px;
+}
+
+.div-table {
+    display: none;
+}
+
+.phone {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
 }
 
 .div1 {
@@ -46,12 +55,14 @@ td {
             font-size: 25px;
             margin-top: 10px;
             margin-bottom: 10px;
+            text-align: center;
         }
 
         &__p1 {
             color: white;
             font-size: 25px;
             margin-bottom: 10px;
+            text-align: center;
         }
     }
 
@@ -59,6 +70,7 @@ td {
         &__h1 {
             color: red;
             font-size: 25px;
+            text-align: center;
         }
     }
 }
@@ -79,9 +91,10 @@ td {
     margin-top: 25px;
     color: white;
 
+
     &__1 {
         font-size: 30px;
-        text-align: left;
+        text-align: center;
         margin-bottom: 10px;
     }
 
@@ -95,11 +108,13 @@ td {
     &__3 {
         font-size: 30px;
         margin-bottom: 10px;
+        text-align: center;
     }
 
     &__4 {
         font-size: 30px;
         margin-bottom: 10px;
+        text-align: center;
     }
 }
 
@@ -111,6 +126,7 @@ td {
     &__1 {
         font-size: 30px;
         margin-bottom: 10px;
+        text-align: center;
     }
 
     &__2 {
@@ -122,11 +138,13 @@ td {
     &__3 {
         font-size: 30px;
         margin-bottom: 10px;
+        text-align: center;
     }
 
     &__4 {
         font-size: 30px;
         margin-bottom: 10px;
+        text-align: center;
     }
 }
 
@@ -145,6 +163,13 @@ td {
         font-size: 25px;
     }
 
+    .phone {
+        display: none;
+    }
+
+    .div-table {
+        display: block;
+    }
 
     .div1 {
         display: flex;
@@ -195,6 +220,5 @@ td {
     .juma {
         background-color: rgb(175, 116, 5);
     }
-
 
 }

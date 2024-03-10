@@ -40,13 +40,13 @@ td {
   text-align: center;
 }
 .div1__1__h1 {
-  color: blue;
+  color: white;
   font-size: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .div1__1__p1 {
-  color: blue;
+  color: white;
   font-size: 25px;
   margin-bottom: 10px;
 }
@@ -130,11 +130,11 @@ td {
     margin-top: 15px;
   }
   .div1__1__h1 {
-    color: blue;
+    color: white;
     font-size: 40px;
   }
   .div1__1__p1 {
-    color: blue;
+    color: white;
     margin-top: 8px;
     font-size: 40px;
   }

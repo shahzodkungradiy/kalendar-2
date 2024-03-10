@@ -12,7 +12,7 @@ body {
   background-image: url("../img/2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 2500px;
+  height: 2000px;
 }
 
 table,
@@ -32,7 +32,7 @@ td {
   margin: 0 auto;
   padding: 0 10px;
   width: 890px;
-  height: 2500px;
+  height: 2000px;
 }
 
 .div-table {

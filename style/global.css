@@ -12,7 +12,6 @@ body {
   background-image: url("../img/2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 2000px;
 }
 
 table,
@@ -32,7 +31,7 @@ td {
   margin: 0 auto;
   padding: 0 10px;
   width: 890px;
-  height: 2000px;
+  height: 1500px;
 }
 
 .div-table {
@@ -132,6 +131,12 @@ td {
 }
 
 @media screen and (min-width: 1020px) {
+  .container {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 890px;
+    height: 3000px;
+  }
   table,
   th,
   td {

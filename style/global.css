@@ -50,6 +50,9 @@ td {
 .div1 {
   text-align: center;
 }
+.div1__1 {
+  margin-top: 25px;
+}
 .div1__1__h1 {
   color: white;
   font-size: 25px;
@@ -159,9 +162,6 @@ td {
     display: flex;
     justify-content: space-around;
     margin-top: 15px;
-  }
-  .div1__1 {
-    margin-top: 20px;
   }
   .div1__1__h1 {
     color: white;

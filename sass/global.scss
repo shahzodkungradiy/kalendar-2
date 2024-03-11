@@ -13,7 +13,8 @@ body {
     background-image: url("../img/2.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px;
+    padding: 0 15px;
+
 }
 
 table,
@@ -22,11 +23,12 @@ td {
     border: 2px solid black;
     border-collapse: collapse;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 15px;
     font-size: 20px;
     font-family: "Roboto-Bold";
     color: white;
+
 
 
 }
@@ -34,7 +36,8 @@ td {
 .container {
     margin: 0 auto;
     padding: 0 15px;
-    width: 890px;
+    height: min-content;
+    width: min-content;
 }
 
 .div-table {
@@ -69,7 +72,7 @@ td {
 
     &__2 {
         &__h1 {
-            color: red;
+            color: white;
             font-size: 25px;
             text-align: center;
         }
@@ -78,25 +81,24 @@ td {
 
 .text1 {
     text-align: center;
-    color: red;
+    color: white;
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 25px;
 }
 
 .juma {
-    background-color: rgb(175, 116, 5);
+    background-color: orange;
 }
 
 .duwa1 {
     margin-top: 25px;
-    color: white;
-
 
     &__1 {
         font-size: 30px;
         text-align: center;
         margin-bottom: 10px;
+        color: white;
     }
 
     &__2 {
@@ -104,48 +106,55 @@ td {
         text-align: right;
         margin-bottom: 10px;
         font-family: "Roboto-Bold";
+        color: white;
     }
 
     &__3 {
         font-size: 30px;
         margin-bottom: 10px;
-        text-align: center;
+        color: white;
     }
 
     &__4 {
         font-size: 30px;
         margin-bottom: 10px;
         text-align: center;
+        color: white;
     }
 }
 
 .duwa2 {
     margin-top: 15px;
     margin-bottom: 15px;
-    color: white;
+
 
     &__1 {
         font-size: 30px;
         margin-bottom: 10px;
         text-align: center;
+        color: white;
     }
 
     &__2 {
         font-size: 30px;
         margin-bottom: 10px;
         text-align: right;
+        color: white;
     }
 
     &__3 {
         font-size: 30px;
         margin-bottom: 10px;
         text-align: center;
+        color: white;
     }
 
     &__4 {
         font-size: 30px;
         margin-bottom: 10px;
         text-align: center;
+        color: white;
+        padding-bottom: 20px;
     }
 }
 
@@ -172,6 +181,7 @@ td {
         display: block;
     }
 
+
     .div1 {
         display: flex;
         justify-content: space-around;
@@ -192,7 +202,7 @@ td {
 
         &__2 {
             &__h1 {
-                color: red;
+                color: white;
                 margin-top: 40px;
                 font-size: 40px;
             }
@@ -204,7 +214,7 @@ td {
         justify-content: center;
         margin-top: 20px;
         margin-bottom: 15px;
-        color: red;
+        color: white;
         font-size: 30px;
     }
 
@@ -219,7 +229,7 @@ td {
     }
 
     .juma {
-        background-color: rgb(175, 116, 5);
+        background-color: orange;
     }
 
 
